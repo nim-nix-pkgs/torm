@@ -1,5 +1,5 @@
 {
-  description = ''Tiny object relational mapper (torm) for SQLite in Nim.'';
+  description = ''Tiny object relational mapper for SQLite in Nim.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-torm-main.flake = false;
   inputs.src-torm-main.owner = "enimatek-nl";
-  inputs.src-torm-main.ref   = "refs/heads/main";
+  inputs.src-torm-main.ref   = "main";
   inputs.src-torm-main.repo  = "torm";
   inputs.src-torm-main.type  = "github";
   
